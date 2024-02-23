@@ -1,0 +1,93 @@
+html, body {
+    font-family: 'lato', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+}
+.card {
+    border-radius: 10px;
+    margin-top: 60px;
+    max-width: 500px;
+}
+
+.business-img {
+    border-radius: 25px;
+    max-height: 270px;
+    width: 100%;
+}
+
+.card .img {
+    width: 100%;
+}
+
+.text-header {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 355px;
+    display: flex;
+}
+
+.text {
+    margin: 20px 0px 20px 20px;
+}
+
+.card .text h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 24px;
+}
+
+.card .text p {
+    line-height: 1.5em;
+    color: #111729;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.card .text .text-signature p {
+    font-size: 12px;
+}
+
+.card .text .content {
+    margin: 20px 20px 30px;
+    font-size: 16px;
+    display: flex;
+}
+
+.avatar {
+    margin: 40px 0px 0px 20px;
+    justify-items: flex-start;
+    align-items: center;
+    font-size: 16px;
+    display: flex;
+}
+
+.text-signature h1 {
+    flex-direction: column;
+    display: flex;
+}
+
+.avatar-signature {
+    border-radius: 25px;
+    margin-right: 20px;
+    max-width: 40px;
+}
