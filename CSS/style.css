@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@600&display=swap");
+
 html, body {
     font-family: 'lato', sans-serif;
     box-sizing: border-box;
@@ -35,7 +37,23 @@ h1 {
     width: 100%;
 }
 
+.overlay {
+    height: 104%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: end;
+    z-index: 10;
+    top: 0;
+    left: 0;    
+}
+
+.overlay > img {    
+    width: 100%;
+}
+
 .card .img {
+    position: relative;
     width: 100%;
 }
 
@@ -58,7 +76,7 @@ h1 {
 .card .text p {
     line-height: 1.5em;
     color: #111729;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: left;
     font-weight: 300;
 }
